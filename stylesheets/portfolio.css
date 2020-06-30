@@ -1,0 +1,386 @@
+@media only screen and (min-width:200px){
+	#container{
+		min-height: 100vh;
+		margin-bottom: -75px
+	}
+	#container:after{
+		content:"";
+		display: block;
+		height: 75px;
+	}
+	.container{
+		margin:1%;
+		padding:2%;
+		border:0px solid #fff;
+		background-color:#DDE2E4; 
+		text-align: center;
+	}
+	header{
+		margin:0%;
+		padding:4%;
+		border:0px solid #fff;
+		border-radius: 1%;
+		background-color:#111;
+		text-align: left;
+	}
+	.sidebar {
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0;
+  left: 0;
+  background-color: #111; 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+
+#main {
+  transition: margin-left .5s; 
+  padding: 20px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+	img{
+		width:50vw;
+		margin:5%;
+		margin:0 auto;
+		padding:20%
+		border:1px solid white;
+	}
+	#name{
+		margin:2%;
+		padding:2%;
+		border:0px solid #fff;
+		background-color: #fff;
+	}
+	.fa-html5{
+		margin: 1%;
+		padding:1%;
+		color:#FA4711;
+	}
+	.fa-css3{
+		margin: 1%;
+		padding:1%;
+		color: #4B8DFA;
+	}
+	.fa-instagram{
+		color: #FF2980;
+	}
+	.fa-instagram:hover{
+		color:#fff;
+	}
+	.fa-linkedin{
+		color:#4080AD;
+	}
+	.fa-linkedin:hover{
+		color:#fff;
+	}
+	.fa-facebook{
+		color:#81BCFF;
+	}
+	.fa-facebook:hover{
+		color:#fff;
+	}
+	.fa-twitter-square{
+		color:#0ED0FF;
+	}
+	.fa-twitter-square:hover{
+		color:#fff;
+	}
+	#about{
+		width: 60vw;
+		margin:1%;
+		margin:0 auto;
+		padding:5%;
+		border:0px solid #fff;
+		border-radius:5%;
+		background-color: #fff;
+		}
+	
+	#skills{
+		width: 60vw;
+		margin:1%;
+		margin:0 auto;
+		padding:5%;
+		border:0px solid #fff;
+		border-radius:5%;
+		background-color: #fff;
+	}
+	#projects{
+		width: 60vw;
+		margin:1%;
+		margin:0 auto;
+		padding:5%;
+		border:0px solid #fff;
+		border-radius:5%;
+		background-color: #fff;
+	}
+	#achievements{
+		width: 60vw;
+		margin:1%;
+		margin:0 auto;
+		padding:5%;
+		border:0px solid #fff;
+		border-radius:5%;
+		background-color: #fff;
+	}
+	#accomplishments{
+		width: 60vw;
+		margin:1%;
+		margin:0 auto;
+		padding:5%;
+		border:0px solid #fff;
+		border-radius:5%;
+		background-color: #fff;
+		}
+	#socialmedia a{
+		margin:2%;
+		margin:0 auto;
+		padding:1%;
+		border:0.5px solid #000;
+		text-decoration: none;
+	}
+	#socialmedia a:hover{
+		color:#fff;  
+	}
+	footer{
+		margin:1vh 5vw 1vh 5vw;
+		padding:1%;
+		border:0px solid #000;
+		background-color:#000;
+		color:#fff;
+	}
+	#coursera a{
+		text-decoration:none; 
+		margin:1%;
+		padding:4%;
+		border:0.5% solid #fff;
+		border-radius:4%;
+		background-color: #fff;
+		color:#000;
+		opacity:0.6;
+	}
+	#coursera a:hover{
+		opacity:1;
+	}
+	.certificates{
+		display:block;
+		width:40vw;
+		margin:5vw;
+		margin:0 auto;
+		padding:5%;
+		border:4px solid #fff;
+		border-radius:2%;
+		background-color: #C8DAF5;
+		text-align: center;
+	}
+}
+
+
+@media only screen and (min-width: 1200px){
+	#container{
+		min-height: 100vh;
+		margin-bottom: -75px
+	}
+	#container:after{
+		content:"";
+		display: block;
+		height: 75px;
+	}
+	.container{
+		margin:1vh 5vw 1vh 5vw;
+		padding:2%;
+		border:0px solid #fff;
+		background-color:#DDE2E4; 
+	}
+	header{
+		margin:0%;
+		padding:4%;
+		border:0px solid #fff;
+		border-radius: 1%;
+		background-color:#111;
+		text-align: left;
+	}
+	#name{
+		margin:0%;
+		padding:0%;
+		border:0px solid #fff;
+		background-color:#DDE2E4; 
+	}
+	#socialmedia a{
+		margin:2%;
+		margin:0 auto;
+		padding:1%;
+		border:0.5px solid #000;
+		text-decoration: none;
+	}
+	#socialmedia a:hover{
+		color:#fff;  
+	}
+	#coursera a{
+		text-decoration:none; 
+		margin:1%;
+		padding:4%;
+		border:0.5% solid #fff;
+		border-radius:4%;
+		background-color: #fff;
+		color:#000;
+		opacity:0.6;
+	}
+	#coursera a:hover{
+		opacity:1;
+	}
+	.fa-html5{
+		margin: 1%;
+		padding:1%;
+		color:#FA4711;
+	}
+	.fa-css3{
+		margin: 1%;
+		padding:1%;
+		color: #4B8DFA;
+	}
+	.fa-instagram{
+		color: #FF2980;
+	}
+	.fa-instagram:hover{
+		color:#fff;
+	}
+	.fa-linkedin{
+		color:#4080AD;
+	}
+	.fa-linkedin:hover{
+		color:#fff;
+	}
+	.fa-facebook{
+		color:#81BCFF;
+	}
+	.fa-facebook:hover{
+		color:#fff;
+	}
+	.fa-twitter-square{
+		color:#0ED0FF;
+	}
+	.fa-twitter-square:hover{
+		color:#fff;
+	}
+	h1{
+		text-align: center;
+	}
+	img{
+		width:40vw;
+		margin:1%;
+		margin:0 auto;
+		padding:0%;
+		border:0px solid #fff;
+	}
+	#about{
+		width:72%;
+		display: inline-grid;
+		margin:2% 10% 2% 10%;
+		margin:0 auto;
+		padding:5%;
+		border:0px solid #fff;
+		border-radius:2%;
+		background-color: #fff;
+		text-align: center;
+	}
+	#skills{
+		margin:2% 10% 2% 10%;
+		margin:0 auto;
+		padding:5%;
+		border:0px solid #fff;
+		border-radius:2%;
+		background-color: #fff;
+		text-align: center;
+	}
+	#projects{
+		margin:2% 10% 2% 10%;
+		margin:0 auto;
+		padding:5%;
+		border:1px solid #DDE2E4;
+		border-radius:2%;
+		background-color: #fff;
+		text-align: center;
+	}
+	#achievements{
+		margin:2% 10% 2% 10%;
+		margin:0 auto;
+		padding:5%;
+		border:1px solid #DDE2E4;
+		border-radius:2%;
+		background-color: #fff;
+		text-align: center;
+	}
+	#accomplishments{
+		margin:2% 10% 2% 10%;
+		margin:0 auto;
+		padding:5%;
+		border:2px solid #DDE2E4;
+		border:0px solid #fff;
+		border-radius:2%;
+		background-color: #fff;
+		text-align: center;
+	}
+	.certificates{
+		display:inline-table;
+		width:10vw;
+		height:20vh;
+		margin:5vw;
+		margin:0 auto;
+		padding:5%;
+		border:4px solid #fff;
+		border-radius:2%;
+		background-color: #C8DAF5;
+		text-align: center;
+	}
+	footer{
+		margin:1vh 5vw 1vh 5vw;
+		padding:1%;
+		border:0px solid #000;
+		background-color:#000;
+		color:#fff;
+	}
+}
